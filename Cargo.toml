@@ -1,0 +1,11 @@
+[package]
+name = "hexdump-rs"
+version = "0.1.0"
+authors = ["Jonas Vander Vennet <jonas.vdv@hotmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.20" # for commandline arguments
+colored = "2" # for coloring terminal output
